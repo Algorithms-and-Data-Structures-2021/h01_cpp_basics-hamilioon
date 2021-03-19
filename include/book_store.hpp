@@ -71,7 +71,7 @@ struct BookStore {
  public:
   // константы (при желании, вы можете изменить их значения)
   static constexpr int kCapacityCoefficient = 5;   // коэффициент увеличения размера хранилища книг
-  static constexpr int kInitStorageCapacity = 10;  // изначальный объем хранилища книг
+  static constexpr int kInitStorageCapacity = 5;  // изначальный объем хранилища книг
 
  private:
   // поля структуры
